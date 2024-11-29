@@ -1,0 +1,11 @@
+C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\projetoFinal\projetoFinal.Aplicacao\bin\Debug\net8.0\projetoFinal.Aplicacao.deps.json
+C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\projetoFinal\projetoFinal.Aplicacao\bin\Debug\net8.0\projetoFinal.Aplicacao.dll
+C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\projetoFinal\projetoFinal.Aplicacao\bin\Debug\net8.0\projetoFinal.Aplicacao.pdb
+C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\projetoFinal\projetoFinal.Aplicacao\obj\Debug\net8.0\projetoFinal.Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\projetoFinal\projetoFinal.Aplicacao\obj\Debug\net8.0\projetoFinal.Aplicacao.AssemblyInfoInputs.cache
+C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\projetoFinal\projetoFinal.Aplicacao\obj\Debug\net8.0\projetoFinal.Aplicacao.AssemblyInfo.cs
+C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\projetoFinal\projetoFinal.Aplicacao\obj\Debug\net8.0\projetoFinal.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\projetoFinal\projetoFinal.Aplicacao\obj\Debug\net8.0\projetoFinal.Aplicacao.dll
+C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\projetoFinal\projetoFinal.Aplicacao\obj\Debug\net8.0\refint\projetoFinal.Aplicacao.dll
+C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\projetoFinal\projetoFinal.Aplicacao\obj\Debug\net8.0\projetoFinal.Aplicacao.pdb
+C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\projetoFinal\projetoFinal.Aplicacao\obj\Debug\net8.0\ref\projetoFinal.Aplicacao.dll
