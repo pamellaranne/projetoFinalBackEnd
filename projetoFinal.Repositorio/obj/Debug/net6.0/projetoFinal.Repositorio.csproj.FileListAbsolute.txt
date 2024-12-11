@@ -32,3 +32,21 @@ C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Reposito
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Repositorio\obj\Debug\net6.0\projetoFinal.Repositorio.pdb
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Repositorio\obj\Debug\net6.0\projetoFinal.Repositorio.genruntimeconfig.cache
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Repositorio\obj\Debug\net6.0\ref\projetoFinal.Repositorio.dll
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Repositorio\bin\Debug\net6.0\projetoFinal.Repositorio.deps.json
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Repositorio\bin\Debug\net6.0\projetoFinal.Repositorio.runtimeconfig.json
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Repositorio\bin\Debug\net6.0\projetoFinal.Repositorio.dll
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Repositorio\bin\Debug\net6.0\projetoFinal.Repositorio.pdb
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Repositorio\bin\Debug\net6.0\projetoFinal.Dominio.dll
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Repositorio\bin\Debug\net6.0\projetoFinal.Dominio.pdb
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Repositorio\obj\Debug\net6.0\projetoFinal.Repositorio.csproj.AssemblyReference.cache
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Repositorio\obj\Debug\net6.0\projetoFinal.Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Repositorio\obj\Debug\net6.0\projetoFinal.Repositorio.AssemblyInfoInputs.cache
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Repositorio\obj\Debug\net6.0\projetoFinal.Repositorio.AssemblyInfo.cs
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Repositorio\obj\Debug\net6.0\projetoFinal.Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Repositorio\obj\Debug\net6.0\projetoFinal.Repositorio.sourcelink.json
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Repositorio\obj\Debug\net6.0\projetoF.FBBE19A9.Up2Date
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Repositorio\obj\Debug\net6.0\projetoFinal.Repositorio.dll
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Repositorio\obj\Debug\net6.0\refint\projetoFinal.Repositorio.dll
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Repositorio\obj\Debug\net6.0\projetoFinal.Repositorio.pdb
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Repositorio\obj\Debug\net6.0\projetoFinal.Repositorio.genruntimeconfig.cache
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Repositorio\obj\Debug\net6.0\ref\projetoFinal.Repositorio.dll

@@ -71,34 +71,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tarde\\.nuget\\packages\\": {}
+    "C:\\Users\\Pamella\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tarde\\Desktop\\pamellaranne\\Projeto Final\\back-end\\projetoFinal.Servicos\\projetoFinal.Servicos.csproj",
+      "projectUniqueName": "C:\\Users\\Pamella\\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\\Documentos\\projeto360\\projetoFinalBackEnd\\projetoFinal.Servicos\\projetoFinal.Servicos.csproj",
       "projectName": "projetoFinal.Servicos",
-      "projectPath": "C:\\Users\\Tarde\\Desktop\\pamellaranne\\Projeto Final\\back-end\\projetoFinal.Servicos\\projetoFinal.Servicos.csproj",
-      "packagesPath": "C:\\Users\\Tarde\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tarde\\Desktop\\pamellaranne\\Projeto Final\\back-end\\projetoFinal.Servicos\\obj\\",
+      "projectPath": "C:\\Users\\Pamella\\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\\Documentos\\projeto360\\projetoFinalBackEnd\\projetoFinal.Servicos\\projetoFinal.Servicos.csproj",
+      "packagesPath": "C:\\Users\\Pamella\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pamella\\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\\Documentos\\projeto360\\projetoFinalBackEnd\\projetoFinal.Servicos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tarde\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Pamella\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Tarde\\Desktop\\pamellaranne\\Projeto Final\\back-end\\projetoFinal.Dominio\\projetoFinal.Dominio.csproj": {
-              "projectPath": "C:\\Users\\Tarde\\Desktop\\pamellaranne\\Projeto Final\\back-end\\projetoFinal.Dominio\\projetoFinal.Dominio.csproj"
+            "C:\\Users\\Pamella\\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\\Documentos\\projeto360\\projetoFinalBackEnd\\projetoFinal.Dominio\\projetoFinal.Dominio.csproj": {
+              "projectPath": "C:\\Users\\Pamella\\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\\Documentos\\projeto360\\projetoFinalBackEnd\\projetoFinal.Dominio\\projetoFinal.Dominio.csproj"
             }
           }
         }
@@ -137,15 +135,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.35, 6.0.35]"
+            "version": "[6.0.36, 6.0.36]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.35, 6.0.35]"
+            "version": "[6.0.36, 6.0.36]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.35, 6.0.35]"
+            "version": "[6.0.36, 6.0.36]"
           }
         ],
         "frameworkReferences": {
@@ -153,7 +151,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

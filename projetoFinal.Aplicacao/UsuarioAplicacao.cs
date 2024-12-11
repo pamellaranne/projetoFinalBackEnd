@@ -34,6 +34,7 @@ namespace projetoFinal.Aplicacao
 
             usuarioDominio.Nome = usuario.Nome;
             usuarioDominio.Email = usuario.Email;
+            usuarioDominio.Senha = usuario.Senha;
 
             _usuarioRepositorio.Atualizar(usuarioDominio);
         }

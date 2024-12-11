@@ -43,8 +43,9 @@ namespace projetoFinal.Repositorio.Migrations
                         .HasColumnType("int")
                         .HasColumnName("Quantidade");
 
-                    b.Property<int>("TiposCategoriasId")
-                        .HasColumnType("int")
+                    b.Property<string>("TiposCategoriasId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
                         .HasColumnName("TiposCategoria");
 
                     b.Property<int>("UsuarioId")
