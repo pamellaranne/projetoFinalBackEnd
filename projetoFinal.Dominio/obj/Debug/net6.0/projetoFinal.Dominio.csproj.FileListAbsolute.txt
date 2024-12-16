@@ -21,3 +21,4 @@ C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Dominio\
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Dominio\obj\Debug\net6.0\refint\projetoFinal.Dominio.dll
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Dominio\obj\Debug\net6.0\projetoFinal.Dominio.pdb
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Dominio\obj\Debug\net6.0\ref\projetoFinal.Dominio.dll
+C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Dominio\obj\Debug\net6.0\projetoFinal.Dominio.sourcelink.json

@@ -227,3 +227,4 @@ C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Api\obj\
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Api\obj\Debug\net6.0\projetoFinal.Api.pdb
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Api\obj\Debug\net6.0\projetoFinal.Api.genruntimeconfig.cache
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Api\obj\Debug\net6.0\ref\projetoFinal.Api.dll
+C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Api\obj\Debug\net6.0\projetoFinal.Api.sourcelink.json

@@ -28,3 +28,4 @@ C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Servicos
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Servicos\obj\Debug\net6.0\refint\projetoFinal.Servicos.dll
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Servicos\obj\Debug\net6.0\projetoFinal.Servicos.pdb
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Servicos\obj\Debug\net6.0\ref\projetoFinal.Servicos.dll
+C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Servicos\obj\Debug\net6.0\projetoFinal.Servicos.sourcelink.json

@@ -36,3 +36,4 @@ C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Aplicaca
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Aplicacao\obj\Debug\net6.0\refint\projetoFinal.Aplicacao.dll
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Aplicacao\obj\Debug\net6.0\projetoFinal.Aplicacao.pdb
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Aplicacao\obj\Debug\net6.0\ref\projetoFinal.Aplicacao.dll
+C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Aplicacao\obj\Debug\net6.0\projetoFinal.Aplicacao.sourcelink.json

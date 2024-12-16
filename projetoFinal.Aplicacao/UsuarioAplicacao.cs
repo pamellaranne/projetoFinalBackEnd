@@ -65,8 +65,9 @@ namespace projetoFinal.Aplicacao
             if (usuarioDominio == null)
                 throw new Exception("Usuário não encontrado.");
 
+            usuarioDominio.Excluir();
 
-            _usuarioRepositorio.Excluir(usuarioDominio);
+            _usuarioRepositorio.Atualizar(usuarioDominio);
         }
         public void Restaurar(int usuarioId)
         {
@@ -76,7 +77,9 @@ namespace projetoFinal.Aplicacao
                 throw new Exception("Usuário não encontrado.");
 
 
-            _usuarioRepositorio.Restaurar(usuarioDominio);
+            usuarioDominio.Restaurar();
+
+            _usuarioRepositorio.Atualizar(usuarioDominio);
         }
 
         public IEnumerable<Usuario> Listar(bool ativo)

@@ -16,7 +16,7 @@ namespace projetoFinal.Repositorio.Configuracoes
             builder.Property(nameof(Produto.Nome)).HasColumnName("Nome").IsRequired(true);
             builder.Property(nameof(Produto.Quantidade)).HasColumnName("Quantidade").IsRequired(true);
             builder.Property(nameof(Produto.Ativo)).HasColumnName("Ativo").IsRequired(true);
-            builder.Property(nameof(Produto.TiposCategoriasId)).HasColumnName("TiposCategoria").IsRequired(true);
+            builder.Property(nameof(Produto.TiposCategoriasId)).HasColumnName("TiposCategoria").HasConversion<string>().IsRequired(true);
 
             builder.Property(p => p.UsuarioId).HasColumnName("UsuarioId").IsRequired(true);
 

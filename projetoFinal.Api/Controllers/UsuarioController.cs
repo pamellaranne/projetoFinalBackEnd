@@ -133,6 +133,7 @@ namespace projetoFinal.Api
                     Id = usuario.Id,
                     Nome = usuario.Nome,
                     Email = usuario.Email,
+                    Ativo = usuario.Ativo,
                 }).ToList();
 
                 return Ok(usuarios);
