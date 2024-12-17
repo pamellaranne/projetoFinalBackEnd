@@ -75,7 +75,8 @@ namespace projetoFinal.Api
                 {
                     Id = usuarioAtualizar.Id,
                     Nome = usuarioAtualizar.Nome,
-                    Email = usuarioAtualizar.Email
+                    Email = usuarioAtualizar.Email,
+                    Senha = usuarioAtualizar.Senha
                 };
 
                 _usuarioAplicacao.Atualizar(usuarioDominio);

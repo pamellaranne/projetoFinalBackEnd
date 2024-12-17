@@ -6,6 +6,7 @@ namespace projetoFinal.Aplicacao
 {
     public class UsuarioAplicacao : IUsuarioAplicacao
     {
+        
         readonly IUsuarioRepositorio _usuarioRepositorio;
 
         public UsuarioAplicacao(IUsuarioRepositorio usuarioRepositorio)
@@ -34,6 +35,7 @@ namespace projetoFinal.Aplicacao
 
             usuarioDominio.Nome = usuario.Nome;
             usuarioDominio.Email = usuario.Email;
+            usuarioDominio.Senha = usuario.Senha;
 
             _usuarioRepositorio.Atualizar(usuarioDominio);
         }

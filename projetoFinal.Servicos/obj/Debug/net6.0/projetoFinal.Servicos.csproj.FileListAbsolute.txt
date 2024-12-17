@@ -28,4 +28,23 @@ C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Servicos
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Servicos\obj\Debug\net6.0\refint\projetoFinal.Servicos.dll
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Servicos\obj\Debug\net6.0\projetoFinal.Servicos.pdb
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Servicos\obj\Debug\net6.0\ref\projetoFinal.Servicos.dll
+<<<<<<< HEAD
 C:\Users\Tarde\Desktop\pamellaranne\Projeto Final\back-end\projetoFinal.Servicos\obj\Debug\net6.0\projetoFinal.Servicos.sourcelink.json
+=======
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Servicos\bin\Debug\net6.0\projetoFinal.Servicos.deps.json
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Servicos\bin\Debug\net6.0\projetoFinal.Servicos.dll
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Servicos\bin\Debug\net6.0\projetoFinal.Servicos.pdb
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Servicos\bin\Debug\net6.0\projetoFinal.Dominio.dll
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Servicos\bin\Debug\net6.0\projetoFinal.Dominio.pdb
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Servicos\obj\Debug\net6.0\projetoFinal.Servicos.csproj.AssemblyReference.cache
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Servicos\obj\Debug\net6.0\projetoFinal.Servicos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Servicos\obj\Debug\net6.0\projetoFinal.Servicos.AssemblyInfoInputs.cache
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Servicos\obj\Debug\net6.0\projetoFinal.Servicos.AssemblyInfo.cs
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Servicos\obj\Debug\net6.0\projetoFinal.Servicos.csproj.CoreCompileInputs.cache
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Servicos\obj\Debug\net6.0\projetoFinal.Servicos.sourcelink.json
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Servicos\obj\Debug\net6.0\projetoF.471D6385.Up2Date
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Servicos\obj\Debug\net6.0\projetoFinal.Servicos.dll
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Servicos\obj\Debug\net6.0\refint\projetoFinal.Servicos.dll
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Servicos\obj\Debug\net6.0\projetoFinal.Servicos.pdb
+C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Servicos\obj\Debug\net6.0\ref\projetoFinal.Servicos.dll
+>>>>>>> 13454c170348076c0c15f3ac2849cc3fd6d1d8a5

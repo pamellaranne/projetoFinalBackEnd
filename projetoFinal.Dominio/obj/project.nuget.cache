@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MDkIZaxeOIQ=",
+  "dgSpecHash": "XokLDOq3H+Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tarde\\Desktop\\pamellaranne\\Projeto Final\\back-end\\projetoFinal.Dominio\\projetoFinal.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\Pamella\\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\\Documentos\\projeto360\\projetoFinalBackEnd\\projetoFinal.Dominio\\projetoFinal.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Tarde\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.35\\microsoft.netcore.app.ref.6.0.35.nupkg.sha512",
-    "C:\\Users\\Tarde\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.35\\microsoft.windowsdesktop.app.ref.6.0.35.nupkg.sha512",
-    "C:\\Users\\Tarde\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.35\\microsoft.aspnetcore.app.ref.6.0.35.nupkg.sha512"
+    "C:\\Users\\Pamella\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Pamella\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Pamella\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
   ],
   "logs": []
 }
