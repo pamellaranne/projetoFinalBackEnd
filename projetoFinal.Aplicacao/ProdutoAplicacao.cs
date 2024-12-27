@@ -68,9 +68,9 @@ namespace projetoFinal.Aplicacao
             _produtoRepositorio.Restaurar(produtoDominio);
         }
 
-         public IEnumerable<Produto> Listar(bool ativo)
+         public IEnumerable<Produto> Listar(bool ativo, int usuarioId)
         {
-            return _produtoRepositorio.Listar(ativo);
+            return _produtoRepositorio.Listar(ativo, usuarioId);
         }
     }
 }

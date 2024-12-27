@@ -44,8 +44,8 @@ public class ProdutoRepositorio : IProdutoRepositorio
         _contexto.SaveChanges();
     }
 
-    public IEnumerable<Produto> Listar(bool ativo)
+    public IEnumerable<Produto> Listar(bool ativo, int usuarioId)
     {
-        return _contexto.Produtos.Where(u => u.Ativo == ativo).ToList();
+        return _contexto.Produtos.Where(u => u.Ativo == ativo && u.UsuarioId == usuarioId).ToList();
     }
 }

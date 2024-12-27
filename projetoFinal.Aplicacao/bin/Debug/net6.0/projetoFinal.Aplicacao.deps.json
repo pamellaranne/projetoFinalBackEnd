@@ -776,10 +776,7 @@
       },
       "projetoFinal.Dominio/1.0.0": {
         "runtime": {
-          "projetoFinal.Dominio.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "projetoFinal.Dominio.dll": {}
         }
       },
       "projetoFinal.Repositorio/1.0.0": {
@@ -792,10 +789,7 @@
           "projetoFinal.Dominio": "1.0.0"
         },
         "runtime": {
-          "projetoFinal.Repositorio.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "projetoFinal.Repositorio.dll": {}
         }
       },
       "projetoFinal.Servicos/1.0.0": {
@@ -804,10 +798,7 @@
           "projetoFinal.Dominio": "1.0.0"
         },
         "runtime": {
-          "projetoFinal.Servicos.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "projetoFinal.Servicos.dll": {}
         }
       }
     }

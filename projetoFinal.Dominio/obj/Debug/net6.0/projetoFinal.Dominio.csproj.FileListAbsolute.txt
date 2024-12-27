@@ -37,3 +37,15 @@ C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia 
 C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Dominio\obj\Debug\net6.0\projetoFinal.Dominio.pdb
 C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Dominio\obj\Debug\net6.0\ref\projetoFinal.Dominio.dll
 >>>>>>> 13454c170348076c0c15f3ac2849cc3fd6d1d8a5
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Dominio\bin\Debug\net6.0\projetoFinal.Dominio.deps.json
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Dominio\bin\Debug\net6.0\projetoFinal.Dominio.dll
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Dominio\bin\Debug\net6.0\projetoFinal.Dominio.pdb
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Dominio\obj\Debug\net6.0\projetoFinal.Dominio.csproj.AssemblyReference.cache
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Dominio\obj\Debug\net6.0\projetoFinal.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Dominio\obj\Debug\net6.0\projetoFinal.Dominio.AssemblyInfoInputs.cache
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Dominio\obj\Debug\net6.0\projetoFinal.Dominio.AssemblyInfo.cs
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Dominio\obj\Debug\net6.0\projetoFinal.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Dominio\obj\Debug\net6.0\projetoFinal.Dominio.dll
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Dominio\obj\Debug\net6.0\refint\projetoFinal.Dominio.dll
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Dominio\obj\Debug\net6.0\projetoFinal.Dominio.pdb
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Dominio\obj\Debug\net6.0\ref\projetoFinal.Dominio.dll

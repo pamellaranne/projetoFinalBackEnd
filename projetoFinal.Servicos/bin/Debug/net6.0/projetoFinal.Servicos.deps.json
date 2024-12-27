@@ -25,10 +25,7 @@
       },
       "projetoFinal.Dominio/1.0.0": {
         "runtime": {
-          "projetoFinal.Dominio.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "projetoFinal.Dominio.dll": {}
         }
       }
     }

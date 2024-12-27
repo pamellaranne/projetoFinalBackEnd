@@ -127,12 +127,12 @@ namespace projetoFinal.Api
         }
 
          [HttpGet]
-        [Route("Listar")]
-        public ActionResult List([FromQuery] bool ativos)
+        [Route("Listar/{usuarioId}")]
+        public ActionResult List([FromQuery] bool ativos, [FromRoute] int usuarioId)
         {
             try
             {
-                var produtosDominio = _produtoAplicacao.Listar(ativos);
+                var produtosDominio = _produtoAplicacao.Listar(ativos, usuarioId);
 
                 var produtos = produtosDominio.Select(produto => new ProdutoResponse()
                 {

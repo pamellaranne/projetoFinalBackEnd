@@ -60,3 +60,22 @@ C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia 
 C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Aplicacao\obj\Debug\net6.0\projetoFinal.Aplicacao.pdb
 C:\Users\Pamella\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\Documentos\projeto360\projetoFinalBackEnd\projetoFinal.Aplicacao\obj\Debug\net6.0\ref\projetoFinal.Aplicacao.dll
 >>>>>>> 13454c170348076c0c15f3ac2849cc3fd6d1d8a5
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\bin\Debug\net6.0\projetoFinal.Aplicacao.deps.json
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\bin\Debug\net6.0\projetoFinal.Aplicacao.dll
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\bin\Debug\net6.0\projetoFinal.Aplicacao.pdb
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\bin\Debug\net6.0\projetoFinal.Dominio.dll
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\bin\Debug\net6.0\projetoFinal.Repositorio.dll
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\bin\Debug\net6.0\projetoFinal.Servicos.dll
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\bin\Debug\net6.0\projetoFinal.Repositorio.pdb
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\bin\Debug\net6.0\projetoFinal.Dominio.pdb
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\bin\Debug\net6.0\projetoFinal.Servicos.pdb
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\obj\Debug\net6.0\projetoFinal.Aplicacao.csproj.AssemblyReference.cache
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\obj\Debug\net6.0\projetoFinal.Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\obj\Debug\net6.0\projetoFinal.Aplicacao.AssemblyInfoInputs.cache
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\obj\Debug\net6.0\projetoFinal.Aplicacao.AssemblyInfo.cs
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\obj\Debug\net6.0\projetoFinal.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\obj\Debug\net6.0\projetoFinal.Aplicacao.csproj.CopyComplete
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\obj\Debug\net6.0\projetoFinal.Aplicacao.dll
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\obj\Debug\net6.0\refint\projetoFinal.Aplicacao.dll
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\obj\Debug\net6.0\projetoFinal.Aplicacao.pdb
+C:\Users\pamel\OneDrive\Documentos\Itera\pamella\projetoFinal\projetoFinalBackEnd\projetoFinal.Aplicacao\obj\Debug\net6.0\ref\projetoFinal.Aplicacao.dll

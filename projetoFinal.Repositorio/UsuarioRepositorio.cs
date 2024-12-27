@@ -74,4 +74,78 @@ public class UsuarioRepositorio : IUsuarioRepositorio
     {
         return _contexto.Usuarios.Where(u => u.Ativo == ativo).ToList();
     }
+
+    public async Task EsqueciMinhaSenha(string email)
+    {
+        // Obtém o usuário pelo e-mail
+        var usuario = await _contexto.Usuarios
+            .FirstOrDefaultAsync(u => u.Email == email);
+
+        if (usuario == null)
+        {
+            throw new Exception("Usuário não encontrado.");
+        }
+
+        // Gera um token único para redefinição de senha
+        var token = Guid.NewGuid().ToString();
+
+        // Define a data de expiração do token (ex: 1 hora)
+        var expiracao = DateTime.UtcNow.AddHours(1);
+
+        // Atualiza o usuário com o token e a data de expiração
+        usuario.TokenRedefinicao = token;
+        usuario.DataExpiracaoToken = expiracao;
+
+        // Salva as mudanças no banco de dados
+        _contexto.Usuarios.Update(usuario);
+        await _contexto.SaveChangesAsync();
+
+        // Aqui você pode enviar o token por e-mail ou outro meio
+    }
+
+    public async Task RedefinirSenha(string token, string novaSenha)
+    {
+        var usuario = await _contexto.Usuarios
+            .FirstOrDefaultAsync(u => u.TokenRedefinicao == token);
+
+        if (usuario == null)
+        {
+            throw new Exception("Token inválido.");
+        }
+
+        if (usuario.DataExpiracaoToken < DateTime.UtcNow)
+        {
+            throw new Exception("O token de redefinição expirou.");
+        }
+
+        // Se o token for válido e não expirou, redefine a senha
+        usuario.Senha = novaSenha;
+        usuario.TokenRedefinicao = null; // Limpa o token após a redefinição
+        usuario.DataExpiracaoToken = null; // Limpa a data de expiração
+
+        // Salva a nova senha no banco de dados
+        _contexto.Usuarios.Update(usuario);
+        await _contexto.SaveChangesAsync();
+    }
+
+    public async Task Salvar(Usuario usuario)
+    {
+        if (usuario.Id == 0)
+        {
+            // Caso o usuário não tenha ID (ou seja, é um novo usuário), adicione
+            _contexto.Usuarios.Add(usuario);
+        }
+        else
+        {
+            // Caso contrário, atualize o usuário existente
+            _contexto.Usuarios.Update(usuario);
+        }
+
+        // Salve as alterações no banco de dados
+        await _contexto.SaveChangesAsync();
+    }
+
+
 }
+
+

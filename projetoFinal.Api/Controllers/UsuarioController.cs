@@ -147,12 +147,13 @@ namespace projetoFinal.Api
 
         [HttpPost]
         [Route("Login")]
-        public async Task <ActionResult> Login([FromBody] UsuarioLogin usuarioRequest)
+        public async Task<ActionResult> Login([FromBody] UsuarioLogin usuarioRequest)
         {
             try
             {
                 var usuario = await _usuarioAplicacao.ValidarUsuario(usuarioRequest.Email, usuarioRequest.Senha);
-                var usuarioResponse = new UsuarioResponse(){
+                var usuarioResponse = new UsuarioResponse()
+                {
                     Id = usuario.Id,
                     Nome = usuario.Nome,
                     Email = usuario.Email,
@@ -165,5 +166,39 @@ namespace projetoFinal.Api
                 return StatusCode(500, $"Erro ao criar: {ex.Message}");
             }
         }
+
+        [HttpPost]
+        [Route("EsqueciMinhaSenha")]
+        public async Task<ActionResult> EsqueciMinhaSenha([FromBody] EsqueciSenha esqueciSenhaRequest)
+        {
+            try
+            {
+                // Verifica se o usuário existe
+                var usuario = await _usuarioAplicacao.ObterPorEmail(request.Email);
+                if (usuario == null)
+                {
+                    return BadRequest("Usuário não encontrado com este e-mail.");
+                }
+
+                // Gera o token de redefinição
+                var token = GerarTokenRedefinicao();
+                var dataExpiracao = DateTime.UtcNow.AddHours(1); // Token expira em 1 hora
+
+                // Salva o token e a data de expiração no banco
+                await _tokenAplicacao.SalvarTokenRedefinicao(usuario.Id, token, dataExpiracao);
+
+                // Envia o link de redefinição de senha por e-mail
+                var linkRedefinicao = $"https://seusite.com/redefinir-senha/{token}";
+                await _emailService.EnviarEmail(usuario.Email, "Redefinição de Senha",
+                    $"Clique no link para redefinir sua senha: {linkRedefinicao}");
+
+                return Ok("Link de redefinição de senha enviado para o seu e-mail.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Erro ao processar solicitação: {ex.Message}");
+            }
+        }
+
     }
 }

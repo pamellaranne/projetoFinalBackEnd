@@ -1,13 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BB30lNPCVJE=",
+  "dgSpecHash": "IVmyoNO4sBTdq0L9mvyE+00LVnXP+u7E7DPzHgNCLb584bL81VdSEqCqVa3iTqzTLOAIuIPPbtmhzvSeHlgXzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pamella\\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\\Documentos\\projeto360\\projetoFinalBackEnd\\projetoFinal.Servicos\\projetoFinal.Servicos.csproj",
+  "projectFilePath": "C:\\Users\\pamel\\OneDrive\\Documentos\\Itera\\pamella\\projetoFinal\\projetoFinalBackEnd\\projetoFinal.Servicos\\projetoFinal.Servicos.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Pamella\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\Pamella\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\Pamella\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\Pamella\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+    "C:\\Users\\pamel\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

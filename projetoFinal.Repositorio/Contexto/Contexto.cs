@@ -4,11 +4,12 @@ using Microsoft.Data.SqlClient;
 using projetoFinal.Repositorio.Configuracoes;
 using projetoFinal.Dominio.Entidades;
 
+
 namespace projetoFinal.Repositorio.Context
 {
     public class Contexto : DbContext
     {
-        public string stringConexao { get; set; } = "Server=NOTE294\\SQLEXPRESS;Database=ProjetoFinal;TrustServerCertificate=true;Trusted_connection=True";
+        public string stringConexao { get; set; } = "Server=DESKTOP-HSCTL6I\\SQLEXPRESS;Database=ProjetoFinal;TrustServerCertificate=true;Trusted_Connection=True;";
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Produto> Produtos { get; set; }
 

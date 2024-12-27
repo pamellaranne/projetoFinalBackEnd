@@ -11,4 +11,5 @@ public interface IUsuarioRepositorio
     void Excluir(Usuario usuario);
     void Restaurar(Usuario usuario);
     IEnumerable<Usuario> Listar (bool ativo);
+    Task Salvar(Usuario usuario);
 }

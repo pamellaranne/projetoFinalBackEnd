@@ -8,5 +8,5 @@ public interface IProdutoRepositorio
     Produto Obter(int produtoId, bool ativo);
     void Excluir(Produto produto);
     void Restaurar(Produto produto);
-    IEnumerable<Produto> Listar (bool ativo);
+    IEnumerable<Produto> Listar (bool ativo, int usuarioId);
 }

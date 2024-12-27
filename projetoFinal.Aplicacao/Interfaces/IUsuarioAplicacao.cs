@@ -13,6 +13,10 @@ namespace projetoFinal.Aplicacao
         void Restaurar(int usuarioId);
         IEnumerable<Usuario> Listar (bool ativo);
         Task <Usuario> ValidarUsuario(string email, string senha);
+
+        // Métodos para lidar com redefinição de senha
+        Task EsqueciMinhaSenha(string email);
+        Task RedefinirSenha(string token, string novaSenha);
     }
 
 }

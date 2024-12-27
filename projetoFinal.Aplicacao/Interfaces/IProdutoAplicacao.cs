@@ -9,6 +9,6 @@ namespace projetoFinal.Aplicacao
         Produto Obter(int produtoId, bool ativo);
         void Excluir(int produtoId);
         void Restaurar(int produtoId);
-        IEnumerable<Produto> Listar (bool ativo);
+        IEnumerable<Produto> Listar (bool ativo, int usuarioId);
     }
 }

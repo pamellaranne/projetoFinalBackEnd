@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XokLDOq3H+Y=",
+  "dgSpecHash": "jmtsTSwA7Ch2lIe+8yud8IYAYa15JbbpQdctebISoOINzPDJDe7zedrwG8pBTtDxARz+MO3lLO4aKAFBO0QdKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pamella\\OneDrive - Iterative Desenvolvimento de Softwares e Tecnologia Ltda\\Documentos\\projeto360\\projetoFinalBackEnd\\projetoFinal.Dominio\\projetoFinal.Dominio.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Pamella\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\Pamella\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\Pamella\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\pamel\\OneDrive\\Documentos\\Itera\\pamella\\projetoFinal\\projetoFinalBackEnd\\projetoFinal.Dominio\\projetoFinal.Dominio.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
