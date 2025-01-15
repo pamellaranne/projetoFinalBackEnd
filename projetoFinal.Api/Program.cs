@@ -2,6 +2,7 @@ using projetoFinal.Aplicacao;
 using projetoFinal.Repositorio.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using projetoFinal.Repositorio.Context;
+using projetoFinal.Servicos.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,9 @@ builder.Services.AddScoped<IProdutoAplicacao, ProdutoAplicacao>();
 // Adicione as interfaces de banco de dados
 builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 builder.Services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
+
+builder.Services.AddScoped<IRecuperarSenhaServico, RecuperarSenhaServico>();
+
 
 builder.Services.AddCors(options =>
 {

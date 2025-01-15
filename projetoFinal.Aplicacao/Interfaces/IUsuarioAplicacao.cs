@@ -5,18 +5,18 @@ namespace projetoFinal.Aplicacao
 {
     public interface IUsuarioAplicacao
     {
-        int Criar(Usuario usuario);
-        void Atualizar(Usuario usuario);
-        Usuario Obter(int usuarioId, bool ativo);
-        Usuario ObterPorEmail(string email);
-        void Excluir(int usuarioId);
-        void Restaurar(int usuarioId);
-        IEnumerable<Usuario> Listar (bool ativo);
-        Task <Usuario> ValidarUsuario(string email, string senha);
+        Task<int> CriarAsync(Usuario usuario);
+        Task AtualizarAsync(Usuario usuario);
+        Task<Usuario> ObterPorIdAsync(int usuarioId, bool ativo);
+        Task<Usuario> ObterPorEmailAsync(string email);
+        Task ExcluirAsync(int usuarioId);
+        Task RestaurarAsync(int usuarioId);
+        Task<IEnumerable<Usuario>> ListarAsync(bool ativo);
+        Task<Usuario> ValidarUsuarioAsync(string email, string senha);
 
         // Métodos para lidar com redefinição de senha
-        Task EsqueciMinhaSenha(string email);
-        Task RedefinirSenha(string token, string novaSenha);
+        Task EsqueciMinhaSenhaAsync(string email);
+        Task RedefinirSenhaAsync(string token, string novaSenha);
     }
 
 }

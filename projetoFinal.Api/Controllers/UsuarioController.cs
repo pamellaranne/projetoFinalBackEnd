@@ -21,30 +21,30 @@ namespace projetoFinal.Api
 
         [HttpGet]
         [Route("Obter/{usuarioId}")]
-        public ActionResult Obter([FromRoute] int usuarioId, [FromQuery] bool ativo)
+        public async Task<ActionResult> Obter([FromRoute] int usuarioId, [FromQuery] bool ativo)
         {
             try
             {
-                var usuarioDominio = _usuarioAplicacao.Obter(usuarioId, ativo);
+                var usuarioDominio = await _usuarioAplicacao.ObterPorIdAsync(usuarioId, ativo);
 
                 var usuarioResposta = new UsuarioResponse()
                 {
                     Id = usuarioDominio.Id,
                     Nome = usuarioDominio.Nome,
-                    Email = usuarioDominio.Email
+                    Email = usuarioDominio.Email,
                 };
 
                 return Ok(usuarioResposta);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Erro ao criar: {ex.Message}");
+                return StatusCode(500, $"Erro ao obter: {ex.Message}");
             }
         }
 
         [HttpPost]
         [Route("Criar")]
-        public ActionResult Criar([FromBody] UsuarioCriar usuarioCriar)
+        public async Task<ActionResult> Criar([FromBody] UsuarioCriar usuarioCriar)
         {
             try
             {
@@ -55,7 +55,7 @@ namespace projetoFinal.Api
                     Senha = usuarioCriar.Senha,
                 };
 
-                var usuarioId = _usuarioAplicacao.Criar(usuarioDominio);
+                var usuarioId = await _usuarioAplicacao.CriarAsync(usuarioDominio);
 
                 return Ok(usuarioId);
             }
@@ -67,7 +67,7 @@ namespace projetoFinal.Api
 
         [HttpPut]
         [Route("Atualizar")]
-        public ActionResult Atualizar([FromBody] UsuarioAtualizar usuarioAtualizar)
+        public async Task<ActionResult> Atualizar([FromBody] UsuarioAtualizar usuarioAtualizar)
         {
             try
             {
@@ -79,57 +79,57 @@ namespace projetoFinal.Api
                     Senha = usuarioAtualizar.Senha
                 };
 
-                _usuarioAplicacao.Atualizar(usuarioDominio);
+                await _usuarioAplicacao.AtualizarAsync(usuarioDominio);
 
                 return Ok();
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Erro ao criar: {ex.Message}");
+                return StatusCode(500, $"Erro ao atualizar : {ex.Message}");
             }
         }
 
         [HttpDelete]
         [Route("Deletar/{usuarioId}")]
-        public ActionResult Deletar([FromRoute] int usuarioId)
+        public async Task<ActionResult> Deletar([FromRoute] int usuarioId)
         {
             try
             {
-                _usuarioAplicacao.Excluir(usuarioId);
+                await _usuarioAplicacao.ExcluirAsync(usuarioId);
 
                 return Ok();
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Erro ao criar: {ex.Message}");
+                return StatusCode(500, $"Erro ao deletar: {ex.Message}");
             }
         }
 
         [HttpPut]
         [Route("Restaurar/{usuarioId}")]
-        public ActionResult Restaurar([FromRoute] int usuarioId)
+        public async Task<ActionResult> Restaurar([FromRoute] int usuarioId)
         {
             try
             {
-                _usuarioAplicacao.Restaurar(usuarioId);
+                await _usuarioAplicacao.RestaurarAsync(usuarioId);
 
                 return Ok();
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Erro ao criar: {ex.Message}");
+                return StatusCode(500, $"Erro ao restaurar: {ex.Message}");
             }
         }
 
         [HttpGet]
         [Route("Listar")]
-        public ActionResult List([FromQuery] bool ativos)
+        public async Task<ActionResult> Listar([FromQuery] bool ativos)
         {
             try
             {
-                var usuariosDominio = _usuarioAplicacao.Listar(ativos);
+                var usuariosDominio = await _usuarioAplicacao.ListarAsync(ativos);
 
-                var usuarios = usuariosDominio.Select(usuario => new UsuarioResponse()
+                var usuarios =  usuariosDominio.Select(usuario => new UsuarioResponse()
                 {
                     Id = usuario.Id,
                     Nome = usuario.Nome,
@@ -141,7 +141,7 @@ namespace projetoFinal.Api
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Erro ao criar: {ex.Message}");
+                return StatusCode(500, $"Erro ao listar: {ex.Message}");
             }
         }
 
@@ -151,7 +151,7 @@ namespace projetoFinal.Api
         {
             try
             {
-                var usuario = await _usuarioAplicacao.ValidarUsuario(usuarioRequest.Email, usuarioRequest.Senha);
+                var usuario = await _usuarioAplicacao.ValidarUsuarioAsync(usuarioRequest.Email, usuarioRequest.Senha);
                 var usuarioResponse = new UsuarioResponse()
                 {
                     Id = usuario.Id,
@@ -173,26 +173,28 @@ namespace projetoFinal.Api
         {
             try
             {
-                // Verifica se o usuário existe
-                var usuario = await _usuarioAplicacao.ObterPorEmail(request.Email);
-                if (usuario == null)
-                {
-                    return BadRequest("Usuário não encontrado com este e-mail.");
-                }
+                await _usuarioAplicacao.EsqueciMinhaSenhaAsync(esqueciSenhaRequest.Email);
 
-                // Gera o token de redefinição
-                var token = GerarTokenRedefinicao();
-                var dataExpiracao = DateTime.UtcNow.AddHours(1); // Token expira em 1 hora
-
-                // Salva o token e a data de expiração no banco
-                await _tokenAplicacao.SalvarTokenRedefinicao(usuario.Id, token, dataExpiracao);
-
-                // Envia o link de redefinição de senha por e-mail
-                var linkRedefinicao = $"https://seusite.com/redefinir-senha/{token}";
-                await _emailService.EnviarEmail(usuario.Email, "Redefinição de Senha",
-                    $"Clique no link para redefinir sua senha: {linkRedefinicao}");
-
+                
                 return Ok("Link de redefinição de senha enviado para o seu e-mail.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Erro ao processar solicitação: {ex.Message}");
+            }
+        }
+
+
+        [HttpPost]
+        [Route("RedefinirMinhaSenha")]
+        public async Task<ActionResult> RedefinirMinhaSenha([FromBody] RedefinirSenha redefinirSenhaRequest)
+        {
+            try
+            {
+                await _usuarioAplicacao.RedefinirSenhaAsync(redefinirSenhaRequest.Token, redefinirSenhaRequest.NovaSenha);
+
+                
+                return Ok("Senha redefinida com sucesso");
             }
             catch (Exception ex)
             {

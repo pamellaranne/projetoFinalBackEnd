@@ -3,13 +3,14 @@ using projetoFinal.Dominio.Entidades;
 namespace projetoFinal.Repositorio.Interfaces;
 public interface IUsuarioRepositorio
 {
-    Task <Usuario> ValidarUsuario(string email, string senha);
-    int Criar(Usuario usuario);
-    void Atualizar(Usuario usuario);
-    Usuario Obter(int usuarioId, bool ativo);
-    Usuario ObterPorEmail(string email);
-    void Excluir(Usuario usuario);
-    void Restaurar(Usuario usuario);
-    IEnumerable<Usuario> Listar (bool ativo);
-    Task Salvar(Usuario usuario);
+    Task<Usuario> ValidarUsuarioAsync(string email, string senha);
+    Task<int> CriarAsync(Usuario usuario);
+    Task AtualizarAsync(Usuario usuario);
+    Task<Usuario> ObterPorIdAsync(int usuarioId, bool ativo);
+    Task<Usuario> ObterPorEmailAsync(string email);
+    Task<Usuario> ObterPorTokenAsync(string token);
+    Task ExcluirAsync(Usuario usuario);
+    Task RestaurarAsync(Usuario usuario);
+    Task<IEnumerable<Usuario>> ListarAsync(bool ativo);
+    
 }

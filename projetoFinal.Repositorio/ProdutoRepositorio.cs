@@ -17,11 +17,13 @@ public class ProdutoRepositorio : IProdutoRepositorio
 
         return produto.Id;
     }
+    
     public void Atualizar(Produto produto)
     {
         _contexto.Produtos.Update(produto);
         _contexto.SaveChanges();
     }
+    
     public Produto Obter(int produtoId, bool ativo)
     {
         return _contexto.Produtos
@@ -29,7 +31,7 @@ public class ProdutoRepositorio : IProdutoRepositorio
                     .Where(u => u.Ativo == ativo)
                     .FirstOrDefault();
     }
-
+    
     public void Excluir(Produto produto)
     {
         produto.Excluir();
