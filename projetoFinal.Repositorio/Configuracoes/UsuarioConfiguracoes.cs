@@ -5,7 +5,7 @@ using projetoFinal.Dominio.Entidades;
 
 namespace projetoFinal.Repositorio.Configuracoes
 {
-    
+
     public class UsuarioConfiguracoes : IEntityTypeConfiguration<Usuario>
     {
         public void Configure(EntityTypeBuilder<Usuario> builder)
@@ -19,7 +19,6 @@ namespace projetoFinal.Repositorio.Configuracoes
             builder.Property(nameof(Usuario.Ativo)).HasColumnName("Ativo").IsRequired(true);
             builder.Property(nameof(Usuario.TokenRedefinicao)).HasColumnName("TokenRedefinicao").HasMaxLength(255);
             builder.Property(nameof(Usuario.DataExpiracaoToken)).HasColumnName("DataExpiracaoToken").HasColumnType("datetime");
-
         }
     }
 }

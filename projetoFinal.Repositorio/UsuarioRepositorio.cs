@@ -13,20 +13,16 @@ public class UsuarioRepositorio : IUsuarioRepositorio
 
     public async Task<Usuario> ValidarUsuarioAsync(string email, string senha)
     {
-        // Buscando o usuário no banco de dados pelo email
         var usuario = await
         _contexto.Usuarios
             .FirstOrDefaultAsync(u => u.Email == email);
 
-        // Se o usuário não foi encontrado
         if (usuario == null)
             return null;
 
-        // Aqui você deve implementar a comparação da senha
-        // Em um ambiente real, você deve comparar a senha criptografada (nunca em texto simples)
         if (usuario.Senha != senha)
             return null;
-        // Se o usuário foi encontrado e a senha está correta
+       
         return usuario;
     }
 
@@ -84,27 +80,6 @@ public class UsuarioRepositorio : IUsuarioRepositorio
     {
         return await _contexto.Usuarios.Where(u => u.Ativo == ativo).ToListAsync();
     }
-
-
-
-
-    //NAO ENTENDI PRA QUE QUE SERVE ISSO SE JA TEM O CRIAR KSKSKSKSK
-    // public async Task Salvar(Usuario usuario)
-    // {
-    //     if (usuario.Id == 0)
-    //     {
-    //         // Caso o usuário não tenha ID (ou seja, é um novo usuário), adicione
-    //         _contexto.Usuarios.Add(usuario);
-    //     }
-    //     else
-    //     {
-    //         // Caso contrário, atualize o usuário existente
-    //         _contexto.Usuarios.Update(usuario);
-    //     }
-
-    //     // Salve as alterações no banco de dados
-    //     await _contexto.SaveChangesAsync();
-    // }
 
 
 }

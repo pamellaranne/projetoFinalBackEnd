@@ -32,6 +32,7 @@ namespace projetoFinal.Api
                     Id = usuarioDominio.Id,
                     Nome = usuarioDominio.Nome,
                     Email = usuarioDominio.Email,
+                    Ativo = usuarioDominio.Ativo,
                 };
 
                 return Ok(usuarioResposta);

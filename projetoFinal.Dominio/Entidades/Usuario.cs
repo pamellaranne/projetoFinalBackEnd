@@ -10,6 +10,7 @@ namespace projetoFinal.Dominio.Entidades
         public List <Produto> Produtos { get; set; } 
         public string TokenRedefinicao { get; set; }
         public DateTime? DataExpiracaoToken { get; set; }
+    
         public Usuario()
         {
             Ativo = true;
